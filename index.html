@@ -1,0 +1,202 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Audio samples from "MLP Singer: Towards Rapid Parallel Korean Singing Voice Synthesis"</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <div>
+    <article>
+      <header>
+        <h1>Audio samples from "MLP Singer: Towards Rapid Parallel Korean Singing Voice Synthesis"</h1>
+      </header>
+    </article>
+    <p><b>Abstract:</b>
+      Recent developments in deep learning have significantly improved the quality of synthesized singing voice audio.
+      However, prominent neural singing voice synthesis systems suffer from slow inference speed due to their
+      autoregressive design. Inspired by MLP-Mixer, a novel architecture introduced in the vision literature for
+      attention-free image classification, we propose MLP Singer, a parallel Korean singing voice synthesis system. To
+      the best of our knowledge, this is the first work that uses an entirely MLP-based architecture for voice
+      synthesis. Listening tests demonstrate that MLP Singer outperforms a larger autoregressive GAN-based system in
+      terms of audio quality. More importantly, MLP Singer achieves a real-time factor of 200 and 3400 on CPUs and GPUs
+      respectively, enabling orders of magnitude faster generation than baseline systems.
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Ground Truth</th>
+          <th>Ground Truth Reconstruction</th>
+          <th>BEGANSing</th>
+          <th>MLP Singer</th>
+          <th>MLP Singer + OB</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="6"><span>1a: Little Star</span></td>
+        </tr>
+        <tr>
+          <td><audio controls="">
+              <source src="wavs/gt/kr041a_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/gt_recon/kr041a_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/begansing/kr041a_0" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/mlpsinger/kr041a_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/mlpsinger_ob/kr041a_0.wav" type="audio/wav">
+            </audio></td>
+        </tr>
+        <tr>
+          <td colspan="6"><span>1b: Little Star</span></td>
+        </tr>
+        <tr>
+          <td><audio controls="">
+              <source src="wavs/gt/kr041b_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/gt_recon/kr041b_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/begansing/kr041b_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/mlpsinger/kr041b_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/mlpsinger_ob/kr041b_0.wav" type="audio/wav">
+            </audio></td>
+        </tr>
+        <tr>
+          <td colspan="6"><span>2a: Bingo</span></td>
+        </tr>
+        <tr>
+          <td><audio controls="">
+              <source src="wavs/gt/kr004b_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/gt_recon/kr004b_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/begansing/kr004b_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/mlpsinger/kr004b_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/mlpsinger_ob/kr004b_0.wav" type="audio/wav">
+            </audio></td>
+        </tr>
+        <tr>
+          <td colspan="6"><span>2b: Bingo</span></td>
+        </tr>
+        <tr>
+          <td><audio controls="">
+              <source src="wavs/gt/kr004a_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/gt_recon/kr004a_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/begansing/kr004a_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/mlpsinger/kr004a_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/mlpsinger_ob/kr004a_0.wav" type="audio/wav">
+            </audio></td>
+        </tr>
+        <tr>
+          <td colspan="6"><span>3a: Head, Shoulders, Knees and Toes</span></td>
+        </tr>
+        <tr>
+          <td><audio controls="">
+              <source src="wavs/gt/kr024b_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/gt_recon/kr024b_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/begansing/kr024b_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/mlpsinger/kr024b_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/mlpsinger_ob/kr024b_0.wav" type="audio/wav">
+            </audio></td>
+        </tr>
+        <tr>
+          <td colspan="6"><span>3b: Head, Shoulders, Knees and Toes</span></td>
+        </tr>
+        <tr>
+          <td><audio controls="">
+              <source src="wavs/gt/kr024a_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/gt_recon/kr024a_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/begansing/kr024a_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/mlpsinger/kr024a_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/mlpsinger_ob/kr024a_0.wav" type="audio/wav">
+            </audio></td>
+        </tr>
+        <tr>
+          <td colspan="6"><span>4a: Ten Little Indians</span></td>
+        </tr>
+        <tr>
+          <td><audio controls="">
+              <source src="wavs/gt/kr028b_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/gt_recon/kr028b_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/begansing/kr028b_0" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/mlpsinger/kr028b_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/mlpsinger_ob/kr028b_0.wav" type="audio/wav">
+            </audio></td>
+        </tr>
+        <tr>
+          <td colspan="6"><span>4b: Ten Little Indians</span></td>
+        </tr>
+        <tr>
+          <td><audio controls="">
+              <source src="wavs/gt/kr028a_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/gt_recon/kr028a_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/begansing/kr028a_0" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/mlpsinger/kr028a_0.wav" type="audio/wav">
+            </audio></td>
+          <td><audio controls="">
+              <source src="wavs/mlpsinger_ob/kr028a_0.wav" type="audio/wav">
+            </audio></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
